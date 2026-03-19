@@ -9,7 +9,7 @@ function(partition arr pivot left right)
         if(${x} LESS ${pivot})
             list(APPEND _left ${x})
         else()
-        list(APPEND _right ${x})
+            list(APPEND _right ${x})
         endif()
     endforeach()
 
@@ -25,6 +25,7 @@ function(quick_sort input res)
     
     list(LENGTH input input_len)
     
+    # 递归结束条件：数列长度小于等于1
     if(${input_len} LESS_EQUAL 1)
         set(${res} "${input}" PARENT_SCOPE)
         return()
@@ -41,7 +42,7 @@ function(quick_sort input res)
     quick_sort("${left}" left)
     quick_sort("${right}" right)
 
-    # 拼接为一个数组
+    # 递归结束后，拼接为一个数组：左边 + 基准值 + 右边
     list(APPEND _res ${left} ${pivot} ${right})
     set(${res} "${_res}" PARENT_SCOPE)
 endfunction()
