@@ -1,0 +1,9 @@
+/Users/mqm/WORKSPACE/CODE/cpp/CmakeInaction/src/ch006/mylib/build_debug/CMakeFiles/mylib.dir
+/Users/mqm/WORKSPACE/CODE/cpp/CmakeInaction/src/ch006/mylib/build_debug/CMakeFiles/package.dir
+/Users/mqm/WORKSPACE/CODE/cpp/CmakeInaction/src/ch006/mylib/build_debug/CMakeFiles/package_source.dir
+/Users/mqm/WORKSPACE/CODE/cpp/CmakeInaction/src/ch006/mylib/build_debug/CMakeFiles/edit_cache.dir
+/Users/mqm/WORKSPACE/CODE/cpp/CmakeInaction/src/ch006/mylib/build_debug/CMakeFiles/rebuild_cache.dir
+/Users/mqm/WORKSPACE/CODE/cpp/CmakeInaction/src/ch006/mylib/build_debug/CMakeFiles/list_install_components.dir
+/Users/mqm/WORKSPACE/CODE/cpp/CmakeInaction/src/ch006/mylib/build_debug/CMakeFiles/install.dir
+/Users/mqm/WORKSPACE/CODE/cpp/CmakeInaction/src/ch006/mylib/build_debug/CMakeFiles/install/local.dir
+/Users/mqm/WORKSPACE/CODE/cpp/CmakeInaction/src/ch006/mylib/build_debug/CMakeFiles/install/strip.dir
