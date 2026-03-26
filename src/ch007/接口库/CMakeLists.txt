@@ -4,7 +4,7 @@ project(myInterfaceLib)
 
 # 声明接口库、包含目录
 add_library(myInterfaceLib INTERFACE)
-target_include_directories(myInterfaceLib INTERFACE include)
+target_include_directories(myInterfaceLib INTERFACE include) # 声明头文件搜索目录
 
 # 添加一个可执行目标
 add_executable(main main.c)
